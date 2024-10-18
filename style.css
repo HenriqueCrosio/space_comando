@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+}
+
+#gameContainer {
+    position: relative;
+    width: 400px;
+    height: 600px;
+}
+
+#gameCanvas {
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+#startScreen, #gameOver {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+h1, h2 {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+}
+
+button {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}

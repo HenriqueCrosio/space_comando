@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space War</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        <div id="startScreen">
+            <h1>SPACE WAR</h1>
+            <p>Use as setas para mover e espaço para atirar</p>
+            <button id="startButton">INICIAR</button>
+        </div>
+        <div id="gameOver" style="display: none;">
+            <h2>GAME OVER</h2>
+            <p>Pontuação Final: <span id="finalScore"></span></p>
+            <button id="restartButton">JOGAR NOVAMENTE</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
