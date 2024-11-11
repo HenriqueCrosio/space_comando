@@ -25,6 +25,15 @@ Este jogo é uma recriação moderna do clássico Space Invaders. O jogador cont
 - CSS3
 - JavaScript
 
+## Caminho para o projeto
+
+https://henriquecrosio.github.io/space_comando/
+
+
 ## Como executar
 
 Clone o repositório e abra o arquivo index.html em seu navegador.
+
+## Autor
+
+Henrique Crosio Neto - 2024
